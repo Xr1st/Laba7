@@ -22,16 +22,16 @@ void func_for_two(double* a, double* b, double* c)
 void one() {
 
     double a;
-    cout << "Ââîä à: ";
+    cout << "Ð’Ð²Ð¾Ð´ Ð°: ";
     cin >> a;
-    cout << "Ââîä b: ";
+    cout << "Ð’Ð²Ð¾Ð´ b: ";
     double b;
     cin >> b;
     cout << func_for_one(a, b);
 }
 
 void two() {
-    cout << "Ââåäèòå òðè ÷èñëà: ";
+    cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ‚Ñ€Ð¸ Ñ‡Ð¸ÑÐ»Ð°: ";
     double a, b, c;
     cin >> a >> b >> c;
     func_for_two(&a, &b, &c);
